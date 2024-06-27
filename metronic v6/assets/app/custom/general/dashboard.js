@@ -104,18 +104,18 @@ var KTDashboard = function() {
         }
 
         var chartData = {
-            labels: ["Label 1", "Label 2", "Label 3", "Label 4", "Label 5", "Label 6", "Label 7", "Label 8", "Label 9", "Label 10", "Label 11", "Label 12", "Label 13", "Label 14", "Label 15", "Label 16"],
+            labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
             datasets: [{
                 //label: 'Dataset 1',
                 backgroundColor: KTApp.getStateColor('success'),
                 data: [
-                    15, 20, 25, 30, 25, 20, 15, 20, 25, 30, 25, 20, 15, 10, 15, 20
+                    15, 20, 25, 30, 25, 20, 15, 20, 25, 30, 25, 20
                 ]
             }, {
                 //label: 'Dataset 2',
                 backgroundColor: '#f3f3fb',
                 data: [
-                    15, 20, 25, 30, 25, 20, 15, 20, 25, 30, 25, 20, 15, 10, 15, 20
+                    15, 20, 25, 30, 25, 20, 15, 20, 25, 30, 25, 20
                 ]
             }]
         };
@@ -180,7 +180,7 @@ var KTDashboard = function() {
             data: {
                 datasets: [{
                     data: [
-                        35, 30, 35
+                        100, 37
                     ],
                     backgroundColor: [
                         KTApp.getStateColor('success'),
@@ -189,9 +189,8 @@ var KTDashboard = function() {
                     ]
                 }],
                 labels: [
-                    'Angular',
-                    'CSS',
-                    'HTML'
+                    'Islamic',
+                    'Conventional',
                 ]
             },
             options: {
@@ -348,7 +347,7 @@ var KTDashboard = function() {
         var config = {
             type: 'line',
             data: {
-                labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October"],
+                labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
                 datasets: [{
                     label: "Sales Stats",
                     backgroundColor: KTApp.getStateColor('danger'), // Put the gradient here as a fill color
@@ -360,7 +359,7 @@ var KTDashboard = function() {
 
                     //fill: 'start',
                     data: [
-                        10, 14, 12, 16, 9, 11, 13, 9, 13, 15
+                        10, 14, 12, 16, 9, 11, 13, 9, 13, 15, 16, 9
                     ]
                 }]
             },
