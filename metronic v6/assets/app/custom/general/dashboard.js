@@ -183,9 +183,8 @@ var KTDashboard = function() {
                         100, 37
                     ],
                     backgroundColor: [
-                        KTApp.getStateColor('success'),
-                        KTApp.getStateColor('danger'),
-                        KTApp.getStateColor('brand')
+                        KTApp.getStateColor('brand'),
+                        KTApp.getStateColor('success')
                     ]
                 }],
                 labels: [
@@ -650,22 +649,17 @@ var KTDashboard = function() {
         Morris.Donut({
             element: 'kt_chart_revenue_change',
             data: [{
-                    label: "New York",
-                    value: 10
+                    label: "Islamic",
+                    value: 32574
                 },
                 {
-                    label: "London",
-                    value: 7
-                },
-                {
-                    label: "Paris",
-                    value: 20
+                    label: "Conventional",
+                    value: 13460
                 }
             ],
             colors: [
-                KTApp.getStateColor('success'),
-                KTApp.getStateColor('danger'),
-                KTApp.getStateColor('brand')
+                KTApp.getStateColor('brand'),
+                KTApp.getStateColor('success')
             ],
         });
     }
